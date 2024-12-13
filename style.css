@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav{
+    font-weight:  400;
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    padding: 48.5px;
+}
+a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 600px;
+    top: 5px;
+}
+.ri-search-2-line{
+    color:white;
+    position: relative;
+    left: 1100px;
+    top: 5px;
+}
+.ri-shopping-bag-3-fill{
+    color:white;
+    position: relative;
+    left: 1150px;
+    top: 5px;
+}
+h1{
+    position: absolute;
+    color: white;
+    left: 104px;
+    top: 300px;
+    font-size: 72px;
+    font-family:"Xanh Mono";
+    font-weight: 400;
+    font-style: normal;
+}
+.icon{
+    position: absolute;
+    left: 104px;
+    top: 10px;
+    padding: 32px;
+}
+#Home{
+    font-weight: 600;
+}
+.Button1{
+    position: absolute;
+    left: 750px;
+    top: 700px;
+    background-color: #D4AF37;
+    color: #333333;
+    border-radius: 9px;
+    border: none;
+    width: 201px;
+    height: 47px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    cursor: pointer;
+}
+.Button2{
+    position: absolute;
+    left: 970px;
+    top: 700px;
+    border-radius: 9px;
+    width: 201px;
+    height: 47px;
+    background-color: transparent;
+    border-color: #D4AF37;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Barlow";
+    cursor: pointer;
+}
+.About{
+    position: absolute;
+    left: 900px;
+    top: 1150px;
+    font-family: "Barlow";
+    font-size: 50px;
+    color: #000;
+}
+.paragraph1{
+    position: absolute;
+    left: 900px;
+    top: 1300px;
+    font-size: 20px;
+    margin-right: 55px;
+}
+.img1{
+    position: absolute;
+    left: -150px;
+    border-radius: 34px;
+    height: 533px;
+}
+.Button3{
+    position: absolute;
+    left: 1200px;
+    top: 1535px;
+    border: none;
+    background-color: #D4AF37;
+    height: 47px;
+    width: 201px;
+    border-radius: 9px;
+    color: #333333;
+    font-family: "Barlow";
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Menu{
+    position: absolute;
+    left: 68px;
+    top: 1700px;
+    font-size: 30px;
+    color: #000;
+    font-family: "Barlow";
+    font-weight: 500;
+}
+.ramen{
+    position: absolute;
+    left: 68px;
+    top: 1780px;
+}
+.Asian{
+    position: absolute;
+    left: 68px;
+    top: 2200px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.Price1{
+    position: absolute;
+    left: 68px;
+    top: 2230px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.Bubble{
+    position: absolute;
+    left: 500px;
+    top: 1780px;
+}
+.tea{
+    position: absolute;
+    left: 500px;
+    top: 2200px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.price2{
+    position: absolute;
+    left: 500px;
+    top: 2230px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.Coffee{
+    position: absolute;
+    left: 932px;
+    top: 1780px;
+}
+.Icedcoffee{
+    position: absolute;
+    left: 932px;
+    top: 2200px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.price3{
+    position: absolute;
+    left: 932px;
+    top: 2230px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.map{
+    position: absolute;
+    left: 104px;
+    right: 104px;
+    top: 2400px;
+    width: 1700px;
+    height: 800px;
+}
+.ri-map-pin-5-fill{
+    position: absolute;
+    left: 200px;
+    top: 3200px;
+}
+.location{
+    position: absolute;
+    left: 220px;
+    top: 3200px;
+    font-family: "Barlow";
+    font-size: 25px;
+    font-weight: bold;
+}
+.ri-phone-fill{
+    position: absolute;
+    left: 700px;
+    top: 3200px;
+}
+.Phone{
+    position: absolute;
+    left: 720px;
+    top: 3200px;
+    font-family: "Barlow";
+    font-size: 25px;
+    font-weight: bold;
+}
+.ri-mail-fill{
+    position: absolute;
+    left: 1200px;
+    top: 3200px;
+}
+.mail{
+    position: absolute;
+    left: 1220px;
+    top: 3200px;
+    font-family: "Barlow";
+    font-size: 25px;
+    font-weight: bold;
+}
+.img2{
+    position: absolute;
+    top: 3300px;
+    height: 600px;
+    width: 1900px;
+}
+form{
+    position: absolute;
+    top: 3500px;
+    left: 220px;
+}
+.text1{
+    position: absolute;
+    top: -50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Barlow";
+    color: white;
+}
+.Firstname{
+    position: absolute;
+    top: 0.02px;
+    left: 3px;
+    background-color: transparent;
+    border-color: #D4AF37;
+    border-radius: 9px;
+    border-width: 4px;
+    height: 43px;
+    width: 296px;
+}
+.text2{
+    position: relative;
+    top: -50px;
+    left: 360px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Barlow";
+    color: white;
+}
+.lastname{
+    position: absolute;
+    top: 0.02px;
+    left: 360px;
+    background-color: transparent;
+    border-color: #D4AF37;
+    border-radius: 9px;
+    border-width: 4px;
+    height: 43px;
+    width: 296px;
+}
+.text3{
+    position: absolute;
+    top: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Barlow";
+    color: white;
+}
+.Phoneno{
+    position: absolute;
+    top: 110px;
+    background-color: transparent;
+    border-color: #D4AF37;
+    border-radius: 9px;
+    border-width: 4px;
+    height: 43px;
+    width: 296px;
+}
+.Date{
+    position: absolute;
+    top: 170px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Barlow";
+    color: white;
+}
+.text4{
+    position: relative;
+    top: 140px;
+    background-color: transparent;
+    border-color: #D4AF37;
+    border-radius: 9px;
+    border-width: 4px;
+    height: 43px;
+    width: 296px;
+}
+.Button4{
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    background-color: #D4AF37 ;
+    border: none;
+    height: 47px;
+    width: 201px;
+    border-radius: 9px;
+    color: #333333;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.Logo1{
+    position: absolute;
+    top: 3950px;
+    left: 50px;
+}
+.insta{
+    position: absolute;
+    top: 3952px;
+    left: 90px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: bold;
+}
+.Logo2{
+    position: absolute;
+    top: 3950px;
+    left: 200px;
+}
+.thread{
+    position: absolute;
+    top: 3953px;
+    left: 240px;
+    font-size: 18px;
+    font-family: "Barlow";
+    font-weight: bold;
+}
+.Logo3{
+    position: absolute;
+    top: 3950px;
+    left: 320px;
+}
+.facebook{
+    position: absolute;
+    top:3953px;
+    left: 360px;
+    font-size: 18px;
+    font-family: "Barlow";
+    font-weight: bold;
+}
+.Info{
+    position: absolute;
+    top: 3953px;
+    right: 50px;
+}
+.Footerimg{
+    position:absolute;
+    top: 4000px;
+    background-color: transparent;
+}
